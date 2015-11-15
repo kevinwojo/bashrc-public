@@ -19,3 +19,5 @@
 
 alias update='git pull --rebase && cd core && bin/composer update && cd ../ && ./muse migration -i -f'
 alias gs='git status'
+
+export TERM='xterm-256color'
